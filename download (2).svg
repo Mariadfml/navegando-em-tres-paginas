@@ -1,0 +1,19 @@
+<svg width="250" height="200" xmlns="http://www.w3.org/2000/svg">
+
+    <rect width="250" height="200" fill="#111642"></rect>
+
+    <!-- cabeça -->
+    <circle cx="125" cy="65" r="35" fill="#eeeeee"></circle>
+
+    <!-- corpo -->
+    <rect x="90" y="100" width="70" height="65" rx="15" fill="#eeeeee"></rect>
+
+    <!-- visor -->
+    <rect x="100" y="110" width="50" height="25" rx="5" fill="#454b91"></rect>
+
+    <!-- braços -->
+    <line x1="90" y1="115" x2="55" y2="150" stroke="#eeeeee" stroke-width="15"></line>
+
+    <line x1="160" y1="115" x2="195" y2="150" stroke="#eeeeee" stroke-width="15"></line>
+
+</svg>

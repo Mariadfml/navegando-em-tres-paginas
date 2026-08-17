@@ -1,0 +1,202 @@
+@import url("style3.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #080b24;
+    color: white;
+}
+
+header {
+    background-color: #111642;
+    padding: 20px;
+    text-align: center;
+
+.destaque {
+    padding: 40px;
+    border-radius: 20px;
+    background: linear-gradient(
+        135deg,
+        #11184a,
+        #3b1764
+    );
+
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+.destaque h2 {
+    color: #ffffff;
+    font-size: 35px;
+}
+
+.destaque p {
+    color: #c9c9e5;
+    line-height: 1.8;
+}
+
+.animacao {
+    animation: flutuar 4s ease-in-out infinite;
+}
+
+@keyframes flutuar {
+
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-12px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 600px) {
+
+    .destaque {
+        padding: 25px;
+    }
+
+    .destaque h2 {
+        font-size: 27px;
+    }
+}
+}
+
+header h1 {
+    margin-bottom: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: #8d7cff;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.inicio {
+    min-height: 450px;
+    padding: 50px 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.inicio div {
+    max-width: 500px;
+}
+
+.inicio h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.inicio p {
+    color: #c8c9dc;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.inicio img {
+    width: 350px;
+}
+
+.botao,
+.voltar {
+    display: inline-block;
+    background-color: #6557e8;
+    color: white;
+    text-decoration: none;
+
+    padding: 12px 20px;
+    border-radius: 8px;
+}
+
+.botao:hover,
+.voltar:hover {
+    background-color: #8378ff;
+}
+
+.sobre {
+    padding: 40px 30px;
+    text-align: center;
+}
+
+.sobre h2 {
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #111642;
+    padding: 20px;
+    border-radius: 12px;
+    width: 300px;
+}
+
+.card img {
+    width: 150px;
+    height: 120px;
+}
+
+.card h3 {
+    margin: 15px 0 10px;
+}
+
+.card p {
+    color: #c8c9dc;
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #050717;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    color: #aaa;
+}
+
+@media (max-width: 700px) {
+
+    .inicio {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .inicio h2 {
+        font-size: 35px;
+    }
+
+    .inicio img {
+        width: 250px;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}

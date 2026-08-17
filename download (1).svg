@@ -1,0 +1,12 @@
+<svg width="250" height="200" xmlns="http://www.w3.org/2000/svg">
+
+    <rect width="250" height="200" fill="#111642"></rect>
+
+    <circle cx="125" cy="100" r="55" fill="#ffd45c"></circle>
+
+    <circle cx="60" cy="45" r="3" fill="white"></circle>
+    <circle cx="190" cy="50" r="3" fill="white"></circle>
+    <circle cx="205" cy="150" r="3" fill="white"></circle>
+    <circle cx="40" cy="155" r="3" fill="white"></circle>
+
+</svg>
